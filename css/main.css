@@ -450,6 +450,24 @@ h2 ~ p {
     box-shadow: none;
     padding: 0;
   }
+  /* ヘッダースタイル */
+  .header-nav {
+    padding: 2vh 1em 0 0;
+  }
+  .header-nav > li {
+    margin-left: 0.25em;
+  }
+  .header-nav li ~ li {
+    padding-left: 0.25em;
+  }
+  .nav-links a {
+    font-size: 3.25vw;
+  }
+  .header-logo {
+    left: auto;
+  }
+
+  /* ブログスタイル */
   .post-aside {
     display: none;
   }
